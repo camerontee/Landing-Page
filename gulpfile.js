@@ -39,7 +39,7 @@ gulp.task('build', function() {
 gulp.task('deploy', function() {
   return surge({
     project: './dist',
-    domain: 'camerontee.landing-page.surge.sh'
+    domain: 'camerontee.page.surge.sh'
   })
 });
 
